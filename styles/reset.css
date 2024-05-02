@@ -1,0 +1,37 @@
+/* Reset.css */
+
+/* Box sizing border-box por defecto para todos los elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Establecer estilos predeterminados para el cuerpo (body) */
+  body {
+    font-family: Arial, sans-serif; /* Cambia según tus preferencias */
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333; /* Cambia según tus preferencias */
+    background-color: #fff; /* Cambia según tus preferencias */
+  }
+  
+  /* Elimina la lista de puntos (bullets) predeterminada de las listas no ordenadas (ul) */
+  ul {
+    list-style: none;
+  }
+  
+  /* Establece los márgenes y el relleno a cero para la lista de elementos */
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Establece la decoración del enlace a 'none' y el color del texto a tu elección */
+  a {
+    text-decoration: none;
+    color: #007BFF; /* Cambia según tus preferencias */
+  }
+  
+  /* Puedes agregar más estilos de reset según tus necesidades */
+  

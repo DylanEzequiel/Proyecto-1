@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pagina</title>
+    <link  rel="stylesheet" type="text/css" href="./styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+    <header class="header"><div>
+        <h1>Mi Pagina Web </h1>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, sint? Iusto blanditiis, magnam culpa veniam iure soluta at itaque vero voluptatem repellat natus accusantium molestias provident distinctio, excepturi consectetur tempore?</p></div>
+        
+    </header>
+    <article class="present">
+        <h2>¿quien soy?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui nihil neque beatae possimus corporis nobis fugiat dolorum! Optio aliquid ullam at error? Officiis dolore animi nobis nulla, assumenda repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt odio laborum, a perspiciatis, eos natus iusto id cumque excepturi atque eum praesentium vero assumenda quas ad ut nulla beatae obcaecati?</p>
+    </article>
+    <article class="myTecs">
+        <h3> Mis tecnologias favoritas son:</h3>
+        <div class="myTecs_container">
+            <ul id="tecs_list">
+                <li class="tecs_contLi"> 
+                    <h3>HTML</h3>
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkn-aF0fsp2l2fvIFmWv7SzT_77y_iMqdFQuBJtOX1zKxRY2tN9uXaJYOyD1YWz4CdQn8&usqp=CAU">  
+                    </li>
+                <li class="tecs_contLi">
+                     <h3>CSS</h3> 
+                     <img src="https://cms.rootstack.com/sites/default/files/inline-images/css3.png">  
+                    </li>
+                <li class="tecs_contLi"> 
+                    <h3>JavaScript</h3> 
+                    <img src="https://global.discourse-cdn.com/sitepoint/original/3X/e/b/eba3983204f9f9c01dab4c54e33b2b9d9a2731e0.png"> 
+                     </li>
+            </ul>
+        </div>
+    </article>
+    <article class="hobbiesForm_container">
+        <form class="hobbiesForm">
+            <label for="titulo">
+                actividad
+                <input type="text" id="titulo" placeholder="Volley">
+            </label>
+            <label for="hobbieDesc">descripcion de la actividad
+                <textarea id="hobbieDesc" placeholder="me gusta juagr al voley porque es algo sano" rows="5"></textarea>
+            </label>
+            <label for="urlImg"> url de la Imagen
+                <input type="url" id="urlImg" placeholder="https://google.com">
+            </label>
+            <input id="boton" type="submit" value="Enviar Datos">
+        </form>
+            
+    </article>
+    <article class="hobbies" id="HobbiesGeneralContainer"></article>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
